@@ -2,12 +2,12 @@
 const cardBoard = document.querySelector('#cardboard');
 // array de imagens
 const images = [
-    'homer.png',
-    'lisa.png',
-    'bart.png',
-    'maggie.png',
-    'marge.png',
-    'burns.png'
+    'goku.jpg',
+    'jiren.png',
+    'hit.png',
+    'bills.png',
+    'vegeta.png',
+    'freeza.png'
 ];
 
 // criando uma variável do tipo let
@@ -18,7 +18,7 @@ images.forEach(img => {
     cardHTML += `
     <div class="memory-card" data-card="${img}">
         <img class="front-face" src="img/${img}">
-        <img class="back-face" src="img/js-badge.svg">
+        <img class="back-face" src="img/capa.jpg">
     </div>
     `;
 });
